@@ -11,7 +11,8 @@
 
   <target name="compile">
     <mkdir dir="${output.dir}"/>
-    <javac destdir="${output.dir}" fork="true">
+	<javac destdir="${output.dir}" fork="true"
+		   includeantruntime="false">
       <src path="src"/>
       <patternset refid="ignored.files"/>
     </javac>
