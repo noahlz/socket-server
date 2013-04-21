@@ -1,4 +1,4 @@
-package com.github.noahlz.sockets;
+package example;
 
 import java.net.Socket;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * Factory that returns socket handlers that simulate work being done on the server.
  */
-class SimulatedWorkSocketHandlerFactory implements SocketHandlerFactory {
+public class SimulatedWorkSocketHandlerFactory implements SocketHandlerFactory {
 
     private final AtomicInteger nextId = new AtomicInteger();
 

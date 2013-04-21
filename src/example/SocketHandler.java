@@ -1,4 +1,4 @@
-package com.github.noahlz.sockets;
+package example;
 
 public interface SocketHandler {
 

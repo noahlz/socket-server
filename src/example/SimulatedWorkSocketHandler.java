@@ -1,4 +1,4 @@
-package com.github.noahlz.sockets;
+package example;
 
 import java.io.*;
 import java.net.Socket;

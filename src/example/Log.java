@@ -1,4 +1,4 @@
-package com.github.noahlz.sockets;
+package example;
 
 import java.text.MessageFormat;
 import java.util.logging.Level;

@@ -23,7 +23,7 @@
   
   <target name="run" depends="compile">
     <java classpath="${output.dir}"
-          classname="com.github.noahlz.sockets.Main"
+          classname="example.Main"
           fork="true">
         <arg value="${server.port}"/>
         <arg value="${server.timeout}"/>

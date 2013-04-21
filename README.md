@@ -23,7 +23,7 @@ In a console, run
 
 This will compile sources and launch the server. You then will see the following:
 
-    [java] Apr 20, 2013 7:03:13 AM com.github.noahlz.sockets.Log info
+    [java] Apr 20, 2013 7:03:13 AM example.Log info
     [java] INFO: Waiting for connections on port 7000 for 15000 milliseconds (Ctrl-C to exit)
 
 In another console, run
