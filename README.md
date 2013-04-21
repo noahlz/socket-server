@@ -3,7 +3,7 @@ Socket Server Demo
 
 _We'll just write on a socket!_
 
-This is a simple Java TCP socket server.  Just like you'd find in many Java tutorials. It also has a mini-framework for plugging in your own SocketHandler class. Patterns. 
+This is a simple Java TCP socket server.  Just like you'd find in many Java tutorials. It also has a mini-framework for plugging in your own SocketHandler class. 
 
 It uses a Thread-Per-Request model and blocking I/O (not web-scale).
 
