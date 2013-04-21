@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="sockets" default="all">
+
+  <property file="build.properties"/>
+
+  <patternset id="ignored.files">
+    <exclude name="**/.git/**"/>
+  </patternset>
+
+  <property name="output.dir" value="${basedir}/classes"/>
+
+  <target name="compile">
+    <mkdir dir="${output.dir}"/>
+    <javac destdir="${output.dir}" fork="true">
+      <src path="src"/>
+      <patternset refid="ignored.files"/>
+    </javac>
+  </target>
+  
+  <target name="clean">
+    <delete dir="${output.dir}" />
+  </target>
+  
+  <target name="run" depends="compile">
+    <java classpath="${output.dir}"
+          classname="com.github.noahlz.sockets.Main"
+          fork="true">
+        <arg value="${server.port}"/>
+        <arg value="${server.timeout}"/>
+        <arg value="${server.socketHandlerFactory}"/>
+    </java>
+  </target>
+
+  <target name="all" depends="clean, run"/>
+
+</project>
