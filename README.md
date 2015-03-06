@@ -11,7 +11,7 @@ It uses a Thread-Per-Request model and blocking I/O (not web-scale!!).
 Requirements
 ------------
 
-This project uses [Apache Ant](http://ant.apache.org) to build, because I hadn't written an ant build file in years and was feeling nostolgic.
+This project uses [Apache Ant](http://ant.apache.org) to build, because I hadn't written an ant build file in years and was feeling nostalgic.
 
 
 Testing
